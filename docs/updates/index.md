@@ -2,14 +2,19 @@
 
 Release highlights for VBackpack, written for server owners and players.
 
-## No Public Update Posts Yet
+## VBackpack 1.0.0
 
-No public update posts have been published yet. New release highlights will be
-added here as they are approved for publication, with a dedicated page for each
-update.
+**Initial Stable Release**<br>
+**August 26, 2026**
 
-For the compact version history currently available from this public repository,
-see the [Changelog](changelog.md). The update checker continues to use the
-[stable metadata endpoint](https://github.com/GQS5/VBackPack-Updates/blob/main/stable.json).
+VBackpack 1.0.0 is the first stable release of the public update-checking
+system. It adds a credential-free way to notify operators about available
+updates while keeping downloads and installation under server-owner control.
 
-[← Home](../index.md) · [Next: Changelog →](changelog.md)
+[Read What's New](posts/1.0.0.md)
+
+For the complete verified history, see the [Changelog](changelog.md).
+
+The update checker continues to use the [stable metadata endpoint](https://github.com/GQS5/VBackPack-Updates/blob/main/stable.json).
+
+[← Home](../index.md) · [Changelog →](changelog.md)
