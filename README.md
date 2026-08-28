@@ -1,6 +1,6 @@
 # VBackpack
 
-[Documentation Website](https://gqs5.github.io/VBackPack-Updates/)
+[Open Docs](https://gqs5.github.io/VBackPack-Updates/)
 
 ## More than storage. A complete backpack experience.
 
@@ -9,18 +9,18 @@ portable storage into a progression system with persistent backpack state,
 distinct tiers, Artifacts, Fusion, Achievements, and read-only administration
 tools.
 
-This repository is the source for the [public documentation website](https://gqs5.github.io/VBackPack-Updates/)
+This repository is the source for the [VBackpack Docs website](https://gqs5.github.io/VBackPack-Updates/)
 and update information. It is
 not the plugin distribution channel: customer downloads are provided through
 the official marketplace resource, not from this repository. VBackpack source
 code, private release assets, credentials, and customer data are not hosted
 here.
 
-## Source Documentation
+## Docs Source
 
 - [Get started](docs/getting-started.md)
 - [Installation](docs/installation.md)
-- [Documentation source](docs/index.md)
+- [Docs source](docs/index.md)
 - [Commands](docs/commands.md)
 - [Admin Inspector](docs/admin-inspector.md)
 - [Compatibility](docs/compatibility.md)
@@ -36,8 +36,8 @@ that server owners install separately.
 
 ## Support and Updates
 
-Use the [documentation website](https://gqs5.github.io/VBackPack-Updates/) for
-setup and operational help, or browse the [documentation source](docs/index.md)
+Use [VBackpack Docs](https://gqs5.github.io/VBackPack-Updates/) for setup and
+operational help, or browse the [Docs source](docs/index.md)
 directly on GitHub.
 The update checker reads the public [stable metadata endpoint](stable.json).
 Marketplace, support, and announcement links will be added here and in the

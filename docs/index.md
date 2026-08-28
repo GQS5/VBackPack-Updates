@@ -63,6 +63,11 @@ by **VackStudio**.
 
 </div>
 
+<div class="vp-update-teaser">
+<div><span class="vp-update-teaser__label">LATEST UPDATES</span><strong>See what's new in VBackpack</strong></div>
+<a href="updates/">What's New <span aria-hidden="true">→</span></a>
+</div>
+
 ## Core Systems
 
 <div class="vp-systems" markdown>

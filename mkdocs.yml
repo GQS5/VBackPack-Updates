@@ -1,4 +1,4 @@
-site_name: VBackpack Documentation
+site_name: VBackpack Docs
 site_description: Official documentation for VBackpack by VackStudio.
 site_url: https://gqs5.github.io/VBackPack-Updates/
 repo_url: https://github.com/GQS5/VBackPack-Updates
@@ -10,7 +10,6 @@ theme:
   generator: false
   features:
     - navigation.sections
-    - navigation.expand
     - navigation.top
     - content.code.copy
     - search.suggest
@@ -34,7 +33,7 @@ theme:
     text: system-ui
     code: Roboto Mono
 
-copyright: VBackpack by VackStudio · Public documentation
+copyright: VBackpack Docs by VackStudio · Public documentation
 
 extra_css:
   - stylesheets/extra.css
@@ -67,6 +66,9 @@ nav:
       - Configuration: configuration.md
       - Storage: storage.md
       - Compatibility: compatibility.md
+  - Updates:
+      - What's New: updates/index.md
+      - Changelog: updates/changelog.md
   - Help:
       - Troubleshooting: troubleshooting.md
       - FAQ: faq.md
