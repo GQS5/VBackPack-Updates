@@ -512,8 +512,8 @@ body:has(.vp-hero) .vp-hero + p {
 
 @media screen and (max-width: 700px) {
   .vp-hero {
-    margin-right: -0.1rem;
-    margin-left: -0.1rem;
+    margin-right: 0;
+    margin-left: 0;
     padding: 2.4rem 1.1rem 1.5rem;
   }
 
@@ -544,5 +544,11 @@ body:has(.vp-hero) .vp-hero + p {
     align-items: flex-start;
     flex-direction: column;
     gap: 0.75rem;
+  }
+
+  .md-typeset__scrollwrap {
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
