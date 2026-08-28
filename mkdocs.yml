@@ -9,7 +9,6 @@ theme:
   language: en
   generator: false
   features:
-    - navigation.sections
     - navigation.top
     - content.code.copy
     - search.suggest

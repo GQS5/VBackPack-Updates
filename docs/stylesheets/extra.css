@@ -482,7 +482,7 @@ body:has(.vp-hero) .vp-hero + p {
   font-weight: 700;
 }
 
-.md-nav__item--section > .md-nav__link {
+.md-nav__item--nested > .md-nav__link {
   color: var(--vp-violet);
   font-weight: 700;
 }
