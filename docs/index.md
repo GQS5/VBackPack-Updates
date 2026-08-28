@@ -1,42 +1,62 @@
-<!-- markdownlint-disable MD033 -->
+<div class="vp-hero">
+
+<div class="vp-hero__eyebrow"><span class="vp-mark" aria-hidden="true">V</span> VACKSTUDIO / MINECRAFT PLUGIN</div>
 
 # VBackpack
 
-## More than storage. A complete backpack experience.
+<p class="vp-hero__tagline"><span>More than storage.</span><br> A complete backpack experience.</p>
+
+<p class="vp-hero__intro">Portable storage with identity, progression, Artifacts, Fusion, Achievements, and practical tools for server administrators.</p>
+
+<div class="vp-actions">
+
+<a class="md-button md-button--primary" href="getting-started/">Get Started</a>
+<a class="md-button" href="installation/">Installation</a>
+<a class="vp-text-link" href="backpacks/">Browse documentation <span aria-hidden="true">→</span></a>
+
+</div>
+
+<div class="vp-hero__baseline"><span>Java 21</span><span>Paper 1.21.11</span><span>Folia 1.21.11</span></div>
+
+</div>
 
 VBackpack is a commercial Minecraft backpack, storage, and progression plugin
-by **VackStudio**. It gives portable storage a persistent identity and layers
-backpack progression, Artifacts, Fusion, Achievements, and read-only tools for
-server administrators on top.
+by **VackStudio**.
 
 <div class="vp-cards" markdown>
 
 <a class="vp-card" href="getting-started/">
+<span class="vp-card__icon vp-icon--route" aria-hidden="true"></span>
 <strong>Get started</strong>
 <span>Take a new server from installation to a first backpack session.</span>
 </a>
 
 <a class="vp-card" href="installation/">
+<span class="vp-card__icon vp-icon--download" aria-hidden="true"></span>
 <strong>Installation</strong>
 <span>Review Java, Paper, Folia, and first-start requirements.</span>
 </a>
 
 <a class="vp-card" href="backpacks/">
+<span class="vp-card__icon vp-icon--backpack" aria-hidden="true"></span>
 <strong>Backpacks</strong>
 <span>Understand persistent identity and progression-focused storage.</span>
 </a>
 
 <a class="vp-card" href="artifacts/">
+<span class="vp-card__icon vp-icon--artifact" aria-hidden="true"></span>
 <strong>Artifacts</strong>
 <span>Explore the approved Artifact lineup and progression concepts.</span>
 </a>
 
 <a class="vp-card" href="commands/">
+<span class="vp-card__icon vp-icon--commands" aria-hidden="true"></span>
 <strong>Commands</strong>
 <span>Find player and administrator command references.</span>
 </a>
 
 <a class="vp-card" href="admin-inspector/">
+<span class="vp-card__icon vp-icon--inspector" aria-hidden="true"></span>
 <strong>Admin Inspector</strong>
 <span>Investigate player storage without changing it.</span>
 </a>
@@ -45,33 +65,16 @@ server administrators on top.
 
 ## Core Systems
 
-### Backpack progression
+<div class="vp-systems" markdown>
 
-Backpacks are individual, persistent storage objects. Multiple backpack types
-make capacity and ownership part of the gameplay journey rather than a set of
-interchangeable command inventories.
+<div class="vp-system"><span class="vp-system__number">01</span><div><h3>Portable storage</h3><p>Persistent backpack contents and state, ready to travel with the player.</p></div></div>
+<div class="vp-system"><span class="vp-system__number">02</span><div><h3>Backpack progression</h3><p>Individual identity and multiple types make storage part of the journey.</p></div></div>
+<div class="vp-system"><span class="vp-system__number">03</span><div><h3>Artifacts</h3><p>Enhance a backpack beyond raw capacity with collectible progression.</p></div></div>
+<div class="vp-system"><span class="vp-system__number">04</span><div><h3>Fusion</h3><p>Advance Artifact progression through the in-game interface.</p></div></div>
+<div class="vp-system"><span class="vp-system__number">05</span><div><h3>Achievements</h3><p>Discoverable goals, including secrets that reward exploration.</p></div></div>
+<div class="vp-system"><span class="vp-system__number">06</span><div><h3>Admin inspection</h3><p>Read-only views of player storage and progression for support.</p></div></div>
 
-### Portable persistent storage
-
-Backpack contents and state are persisted with SQLite. No external database
-server is required, and Paper loads the SQLite JDBC library automatically.
-
-### Artifacts and Fusion
-
-Artifacts enhance a backpack beyond raw storage. Fusion provides an in-game
-path for Artifact progression; current balance and interface details belong to
-the installed release.
-
-### Achievements
-
-Discoverable goals give players another way to progress. Some discoveries are
-intentionally secret and are not revealed in the public documentation.
-
-### Administrative inspection
-
-The read-only Admin Inspector provides paginated views of players, backpacks,
-contents, Artifacts, and Achievement progress. It is designed for support and
-investigation without taking control of player storage.
+</div>
 
 ## Compatibility Baseline
 

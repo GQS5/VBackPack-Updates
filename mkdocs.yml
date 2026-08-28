@@ -7,6 +7,7 @@ repo_name: GQS5/VBackPack-Updates
 theme:
   name: material
   language: en
+  generator: false
   features:
     - navigation.sections
     - navigation.expand
@@ -30,8 +31,10 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
   font:
-    text: Inter
+    text: system-ui
     code: Roboto Mono
+
+copyright: VBackpack by VackStudio · Public documentation
 
 extra_css:
   - stylesheets/extra.css
