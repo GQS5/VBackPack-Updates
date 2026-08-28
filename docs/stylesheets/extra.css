@@ -131,10 +131,11 @@
 }
 
 .vp-hero__tagline {
+  max-width: 34rem;
   margin: 0;
   color: rgba(248, 247, 252, 0.78);
-  font-size: clamp(1.35rem, 3vw, 2rem);
-  line-height: 1.25;
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  line-height: 1.22;
 }
 
 .vp-hero__tagline span {
@@ -171,6 +172,19 @@
 .md-button--primary:focus-visible {
   border-color: var(--vp-violet);
   background: var(--vp-violet);
+}
+
+.vp-actions .md-button:not(.md-button--primary) {
+  border-color: rgba(167, 139, 250, 0.58);
+  background: rgba(18, 10, 31, 0.62);
+  color: #ede9fe;
+}
+
+.vp-actions .md-button:not(.md-button--primary):hover,
+.vp-actions .md-button:not(.md-button--primary):focus-visible {
+  border-color: var(--vp-cyan);
+  background: rgba(59, 7, 100, 0.46);
+  color: #fff;
 }
 
 .vp-text-link {
@@ -319,6 +333,22 @@
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 2rem;
+}
+
+/* The homepage has a broader composition and no secondary table of contents. */
+body:has(.vp-hero) .md-content__inner {
+  max-width: 60rem;
+}
+
+body:has(.vp-hero) .md-content__inner > h1:first-child,
+body:has(.vp-hero) .md-sidebar--secondary {
+  display: none;
+}
+
+body:has(.vp-hero) .vp-hero + p {
+  max-width: 42rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .md-typeset h1 {

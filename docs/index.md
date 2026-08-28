@@ -2,7 +2,7 @@
 
 <div class="vp-hero__eyebrow"><span class="vp-mark" aria-hidden="true">V</span> VACKSTUDIO / MINECRAFT PLUGIN</div>
 
-# VBackpack
+<h1 class="vp-hero__title">VBackpack</h1>
 
 <p class="vp-hero__tagline"><span>More than storage.</span><br> A complete backpack experience.</p>
 
