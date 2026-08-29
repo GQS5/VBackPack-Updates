@@ -30,6 +30,10 @@
   --md-typeset-a-color: #6d28d9;
 }
 
+[data-md-color-scheme="default"] .vp-hero h1 {
+  color: #fff;
+}
+
 .md-header,
 .md-tabs {
   background: var(--vp-deep-purple);
@@ -243,6 +247,10 @@
   transition: border-color 160ms ease, background 160ms ease, transform 160ms ease, box-shadow 160ms ease;
 }
 
+[data-md-color-scheme="default"] .vp-card {
+  background: linear-gradient(145deg, rgba(124, 58, 237, 0.12), rgba(255, 255, 255, 0.82));
+}
+
 .vp-card:hover,
 .vp-card:focus-visible {
   border-color: rgba(34, 211, 238, 0.68);
@@ -276,10 +284,61 @@
   font-size: 1rem;
 }
 
+[data-md-color-scheme="default"] .vp-card strong {
+  color: #241332;
+}
+
 .vp-card span {
   color: var(--md-default-fg-color--light);
   font-size: 0.85rem;
   line-height: 1.45;
+}
+
+[data-md-color-scheme="default"] .vp-card span {
+  color: #51475a;
+}
+
+/* Updates hub */
+.vp-update-hub {
+  max-width: 48rem;
+}
+
+.vp-update-feature,
+.vp-update-archive {
+  margin: 1.5rem 0 2rem;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid var(--vp-border);
+  border-radius: var(--vp-radius);
+  background: linear-gradient(145deg, rgba(59, 7, 100, 0.12), rgba(34, 211, 238, 0.035));
+}
+
+.vp-update-feature h2,
+.vp-update-archive h3 {
+  margin-top: 0;
+  border-bottom: 0;
+}
+
+.vp-update-feature h2 {
+  margin-bottom: 0.45rem;
+}
+
+.vp-update-feature .md-button {
+  margin-top: 0.4rem;
+}
+
+.vp-update-archive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.vp-update-archive p {
+  margin-bottom: 0;
+}
+
+.vp-update-archive .vp-text-link {
+  flex: 0 0 auto;
 }
 
 /* Homepage system overview */
@@ -510,6 +569,15 @@ body:has(.vp-hero) .vp-hero + p {
   }
 }
 
+@media screen and (max-width: 900px) {
+  .vp-hero,
+  .md-typeset__scrollwrap {
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .vp-hero {
     margin-right: 0;
@@ -541,6 +609,12 @@ body:has(.vp-hero) .vp-hero + p {
   }
 
   .vp-update-teaser {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .vp-update-archive {
     align-items: flex-start;
     flex-direction: column;
     gap: 0.75rem;

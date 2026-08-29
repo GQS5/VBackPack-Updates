@@ -66,9 +66,8 @@ nav:
       - Storage: storage.md
       - Compatibility: compatibility.md
   - Updates:
-      - What's New:
-          - Overview: updates/index.md
-          - VBackpack 1.0.0: updates/posts/1.0.0.md
+      - What's New: updates/index.md
+      - VBackpack 1.0.0: updates/posts/1.0.0.md
       - Changelog: updates/changelog.md
   - Help:
       - Troubleshooting: troubleshooting.md
