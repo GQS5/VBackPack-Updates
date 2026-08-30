@@ -2,5 +2,7 @@
   "schema": 1,
   "product": "VBackpacks",
   "channel": "stable",
-  "latest": "1.0.0"
+  "latest": "1.1.0",
+  "releaseUrl": "https://github.com/GQS5/VBackPack/releases/tag/v1.1.0",
+  "publishedAt": "2026-08-30T19:46:52Z"
 }
